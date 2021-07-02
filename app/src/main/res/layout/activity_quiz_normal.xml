@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".quiz.QuizNormal">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/nar"
+        android:text="맞춤법문제"
+        android:textColor="#18191F"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:fontFamily="@font/nar"
+        android:text="일반"
+        android:textColor="#18191F"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="315dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#00ff0000"
+        >
+
+        <View
+            android:id="@+id/view1"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_black" />
+
+        <Button
+            android:id="@+id/textView_main_test_cor_answer"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/dabepink"
+            android:onClick="mOnPopupClick"
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="21dp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/nar"
+        android:gravity="center_horizontal"
+        android:text="vs"
+        android:textColor="#18191F"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="315dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#00ff0000"
+        >
+
+        <View
+            android:id="@+id/view2"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_black" />
+
+        <Button
+            android:id="@+id/textView_main_test_wrong_answer"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/dabemint"
+            android:onClick="mOnPopupClick"
+
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="21dp" />
+
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="25dp">
+
+        <TextView
+
+            android:id="@+id/textView_main_test_reason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+    </ScrollView>
+    <TextView
+        android:id="@+id/textView_main_test_question"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        />
+
+</LinearLayout>
