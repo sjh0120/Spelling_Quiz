@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "732522061739",
+    "project_id": "spelling-quiz-7fd5a",
+    "storage_bucket": "spelling-quiz-7fd5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732522061739:android:1411e01d8d5e71ce1dbcee",
+        "android_client_info": {
+          "package_name": "sjh0120.api.spelling_quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732522061739-dpb11lcpf17n2mnmr817q6g1rp304rs3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCknzp-b8uPozVFxFjvwfKY9ftNuHdW-CU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732522061739-dpb11lcpf17n2mnmr817q6g1rp304rs3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
